@@ -26,6 +26,6 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Run linter on backend
-        run: npm run linter
+        run: npm run lint
       - name: Run backend test
         run: npm test
